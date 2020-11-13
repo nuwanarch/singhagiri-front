@@ -884,6 +884,9 @@ button.btn.btn-link:hover {
 }
 
 /* ------------ scrollspy section------------ */
+.product-details .products-summery {
+    padding-top: 50px;
+}
 .product-details .scrollspy-example {
   position: relative;
   height: 662px;
@@ -912,7 +915,7 @@ button.btn.btn-link:hover {
 }
 
 .product-details .products-summery p.price {
-  padding: 20px 0px;
+  padding: 20px 0px 10px 0px;
   font-size: 18px;
   font-weight: 700;
 }
@@ -995,7 +998,7 @@ button.btn.btn-link:hover {
     color: #393939;
     font-size: 14px;
 }
-a.badge {
+.option-detail a.badge {
     color: #393939;
     font-size: 14px;
     font-weight: 500;
@@ -1007,13 +1010,18 @@ a.badge {
     -webkit-box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.05);
     box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.05);
 }
-.color-indicator {
+.option-detail a.badge:hover {
+    box-shadow: 5px 6px 7px 0px rgba(0,0,0,0.05);
+    border: 1px solid rgb(0 70 190 / .4);
+    transition: .3s;
+}
+.option-detail .color-indicator {
     width: 20px;
     height: 20px;
     margin: 0px auto 5px;
     border-radius: 100%;
 }
-a.badge span {
+.option-detail a.badge span {
     min-height: 104px;
     line-height: 42px;
 }
@@ -1092,20 +1100,27 @@ border: 1px solid #c3c3c3;
 
 .product-details section#scroll-section-2 {
     background: #f9f9f9;
-        padding: 60px 0px 40px 0px;
+        padding-top: 60px;
   }
-.product-details section#scroll-section-2   li.detail-list-item {
-    float: left;
-    width: 33.33%;
+.product-details section#scroll-section-2 h6 {
+    padding-bottom: 3px;
+    font-size: 18px;
+    font-weight: 500;
 }
 .product-details section#scroll-section-2 p.title {
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 500;
+}
+p.detail {
+    font-size: 14px;
+    font-weight: 200;
 }
  .detail-list-item {
     padding-bottom: 25px;
 }
-
+.Specification {
+    padding-bottom: 30px;
+}
 /* .product-details section#scroll-section-2 .detail-list-item {
     padding-bottom:  25px;
 } */
