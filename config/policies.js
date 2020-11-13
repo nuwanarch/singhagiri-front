@@ -22,5 +22,5 @@ module.exports.policies = {
   'legal/view-privacy': true,
   'deliver-contact-form-message': true,
   'products/view-products':true,
-  'view-singleproduct' :true,
+  'products/view-singleproduct' :true,
   };
