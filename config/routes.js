@@ -1,12 +1,12 @@
 /**
- * Route Mappings
- * (sails.config.routes)
- *
- * Your routes tell Sails what to do each time it receives a request.
- *
- * For more information on configuring custom routes, check out:
- * https://sailsjs.com/anatomy/config/routes-js
- */
+* Route Mappings
+* (sails.config.routes)
+*
+* Your routes tell Sails what to do each time it receives a request.
+*
+* For more information on configuring custom routes, check out:
+* https://sailsjs.com/anatomy/config/routes-js
+*/
 
 module.exports.routes = {
 
@@ -34,9 +34,15 @@ module.exports.routes = {
   'GET /account/profile':    { action: 'account/view-edit-profile' },
 
 
+  // product pages
   'GET /products/products': { action: 'products/view-products' },
   'GET /products/singleproduct': { action: 'products/view-singleproduct' },
 
+  // Cart pages
+  'GET /cart/my-cart': { action: 'cart/view-order' },
+  'GET /cart/information': { action: 'cart/view-information' },
+  'GET /cart/Shipping': { action: 'cart/view-shipping' },
+ 'GET /cart/payment': { action: 'cart/view-payment' },
   //  ╔╦╗╦╔═╗╔═╗  ╦═╗╔═╗╔╦╗╦╦═╗╔═╗╔═╗╔╦╗╔═╗   ┬   ╔╦╗╔═╗╦ ╦╔╗╔╦  ╔═╗╔═╗╔╦╗╔═╗
   //  ║║║║╚═╗║    ╠╦╝║╣  ║║║╠╦╝║╣ ║   ║ ╚═╗  ┌┼─   ║║║ ║║║║║║║║  ║ ║╠═╣ ║║╚═╗
   //  ╩ ╩╩╚═╝╚═╝  ╩╚═╚═╝═╩╝╩╩╚═╚═╝╚═╝ ╩ ╚═╝  └┘   ═╩╝╚═╝╚╩╝╝╚╝╩═╝╚═╝╩ ╩═╩╝╚═╝

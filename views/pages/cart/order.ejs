@@ -1,0 +1,76 @@
+<div id="order" v-cloak>
+
+  <div class="cart-pages my-cart-page">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="breadcrumbs">
+            <p>
+              <a href="#" class="active">Cart</a><i class="fa fa-angle-right" aria-hidden="true"></i>
+              <a href="/cart/information">Information</a><i class="fa fa-angle-right" aria-hidden="true"></i>
+              <a href="/cart/Shipping">Shipping</a><i class="fa fa-angle-right" aria-hidden="true"></i>
+              <a href="/cart/payment">Payment</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="page-title text-center">
+            <h3>Your cart</h3>
+            <a href="#">Continue shopping</a>
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <div class="text-center">
+
+            <div class="table-responsive">
+              <table class="table my-cart-table">
+                <thead>
+                  <tr>
+                    <th scope="col"  class="text-left">PRODUCT</th>
+                    <th scope="col"> </th>
+                    <th scope="col"  class="text-right">PRICE</th>
+                    <th scope="col">QUANTITY</th>
+                    <th scope="col" class="text-right">TOTAL</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="text-left image"><img class="img-fluid" src="/images/products-slider-1.jpg" alt="" width="85px"  alt="Generic placeholder image">  </td>
+                    <td class="text-left p-name"><p>1m 08cm (43") T5500 Smart FHD TV</p><p><a href="#">remove</a></p></td>
+                    <td class="text-right p-price">Rs 143,990.00</td>
+                    <td class="text-center p-amount">1</td>
+                    <td class="text-right p-total">Rs 143,990.00</td>
+                  </tr>
+                  <tr>
+                    <td class="text-left image"><img class="img-fluid" src="/images/products-slider-2.jpg" alt="" width="85px"  alt="Generic placeholder image">  </td>
+                    <td class="text-left p-name"><p>1m 08cm (43") T5500 Smart FHD TV</p><p><a href="#">remove</a></p></td>
+                    <td class="text-right p-price">Rs 75,990.00</td>
+                    <td class="text-center p-amount">1</td>
+                    <td class="text-right p-total">Rs 75,990.00</td>
+                  </tr>
+                  <tr class="total-summery">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><h5>Sub Total</h5></td>
+                    <td class="text-right">
+                       <p class="total-value">Rs 143,990.00 </p>
+                      <span>Delivery fee calculated at checkout</span><br>
+                      <a href="#">Check Out</a>
+                    </td>
+                  </tr>
+
+                </tbody>
+              </table>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+<%- /* Expose server-rendered data as window.SAILS_LOCALS :: */ exposeLocalsToBrowser() %>

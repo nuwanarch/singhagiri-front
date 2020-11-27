@@ -45,6 +45,7 @@
       <link rel="stylesheet" href="/dependencies/owl.theme.default.css">
       <link rel="stylesheet" href="/dependencies/star-rating-svg.css">
       <link rel="stylesheet" href="/dependencies/star-rating.min.css">
+      <link rel="stylesheet" href="/dependencies/style.css">
       <link rel="stylesheet" href="/styles/importer.css">
       <link rel="stylesheet" href="/styles/custom-style.css">
       <link rel="stylesheet" href="/styles/responsive.css">
@@ -56,13 +57,11 @@
     </head>
     <body>
       <div id="page-wrap">
-        <header id="page-header" class="navbar navbar-expand-sm navbar-dark bg-dark flex-column flex-md-row justify-content-between">
+        <!-- <header id="page-header" class="navbar navbar-expand-sm navbar-dark bg-dark flex-column flex-md-row justify-content-between">
           <a class="navbar-brand mr-0" href="/"><img class="logo" alt="NEW_APP_NAME logo" src="/images/logo.png"/></a>
           <div class="navbar-nav flex-row">
-            <!-- LOGGED-IN NAVIGATION -->
             <% if(me) { %>
               <a class="nav-item nav-link ml-2 ml-md-0 mr-2 mr-md-0" href="/contact">Help</a>
-              <!-- Only in desktop nav -->
               <div class="nav-item dropdown d-none d-sm-block">
                 <a class="nav-link dropdown-toggle" id="header-account-menu-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Account</a>
                 <div class="dropdown-menu account-menu" aria-labelledby="header-account-menu-link">
@@ -70,22 +69,293 @@
                   <a class="dropdown-item" href="/logout">Sign out</a>
                 </div>
               </div>
-              <!-- Only in mobile nav -->
               <a class="nav-item nav-link ml-2 mr-2 d-block d-sm-none" href="/account">Account Settings</a>
               <a class="nav-item nav-link ml-2 mr-2 d-block d-sm-none" href="/logout">Sign out</a>
               <% } else { %>
-                <!-- LOGGED-OUT NAVIGATION -->
                 <a class="nav-item nav-link ml-2 ml-md-0 mr-2" href="/faq">FAQ</a>
                 <a class="nav-item nav-link ml-2 ml-md-0 mr-2" href="/login">Log in</a>
-                <!-- Only in desktop nav -->
                 <div class="form-inline d-none ml-2 d-md-block" >
                   <a class="btn btn-outline-info" href="/signup">Sign up</a>
                 </div>
-                <!-- Only in mobile nav -->
                 <a class="nav-item nav-link text-info ml-2 d-block d-md-none" href="/signup">Sign up</a>
                 <% } %>
               </div>
-            </header>
+            </header> -->
+
+
+
+            <div class="main-header">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="left-content justify-content-center align-items-center">
+                      <a class="navbar-brand" href="#"><img src="/images/singhagiri-logo.png" class="img-fluid"  width="150px" alt=""></a>
+                      <div class="cd-dropdown-wrapper">
+                        <a class="cd-dropdown-trigger" href="#0">
+                          <img src="/images/menu-icon.svg" class="img-fluid" width="30px" alt="">
+                        </a>
+                        <nav class="cd-dropdown">
+                          <!-- <h2>Title</h2> -->
+                          <!-- <a href="#0" class="cd-close">Close</a> -->
+                          <ul class="cd-dropdown-content">
+
+                            <li class="has-children">
+                              <a href="#" class="d-flex align-items-center"><div><img src="/images/icons/tv.png" class="img-fluid mr-3"  width="25px" alt=""></div>TV</a>
+                              <ul class="cd-dropdown-icons is-hidden">
+                                <li class="go-back"><a href="#0">Menu</a></li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#">24 Inch & Below</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#">32 Inch & Above</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#">40 Inch & Above</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#">50 Inch & Above</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#">65 Inch & Above</a>
+                                </li>
+                              </ul>
+                            </li>
+
+                            <li class="has-children">
+                              <a href="#" class="d-flex align-items-center"><div><img src="/images/icons/mobile.png" class="img-fluid mr-3"  width="25px" alt=""></div>Mobile phones</a>
+                              <ul class="cd-dropdown-icons is-hidden">
+                                <li class="go-back"><a href="#0">Menu</a></li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#">Tablets</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#"> Samsung</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#">Oppo</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#">Accessories</a>
+                                </li>
+                              </ul>
+                            </li>
+
+                            <li class="has-children">
+                              <a href="#" class="d-flex align-items-center"><div><img src="/images/icons/ac.png" class="img-fluid mr-3"  width="25px" alt=""></div>Air Conditioners</a>
+                              <ul class="cd-dropdown-icons is-hidden">
+                                <li class="go-back"><a href="#0">Menu</a></li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#">Hisense</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#"> Daikin</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#">Air Coolers</a>
+                                </li>
+                              </ul>
+                            </li>
+
+                            <li class="has-children">
+                              <a href="#" class="d-flex align-items-center"><div><img src="/images/icons/laptop.png" class="img-fluid mr-3"  width="25px" alt=""></div>Computers</a>
+                              <ul class="cd-dropdown-icons is-hidden">
+                                <li class="go-back"><a href="#0">Menu</a></li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#">Laptops</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#"> Printers</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#">Gaming Laptops</a>
+                                </li>
+                              </ul>
+                            </li>
+
+                            <li class="has-children">
+                              <a href="#" class="d-flex align-items-center"><div><img src="/images/icons/washingmachine.png" class="img-fluid mr-3"  width="25px" alt=""></div>Washing Machine</a>
+                              <ul class="cd-dropdown-icons is-hidden">
+                                <li class="go-back"><a href="#0">Menu</a></li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#">Semi Automatic</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#">Fully Auto Top Loading</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#">Fully Auto Front Loading</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#">Wash & Dry</a>
+                                </li>
+                              </ul>
+                            </li>
+
+                            <li class="has-children">
+                              <a href="#" class="d-flex align-items-center"><div><img src="/images/icons/refrigerator.png" class="img-fluid mr-3"  width="25px" alt=""></div>refrigerators</a>
+                              <ul class="cd-dropdown-icons is-hidden">
+                                <li class="go-back"><a href="#0">Menu</a></li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#"> Freezers</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#">Bottle Coolers</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#"> Mini Bar</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#"> Single Door</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#"> Double Door</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#"> Side By Side</a>
+                                </li>
+                              </ul>
+                            </li>
+
+                            <li class="has-children">
+                              <a href="#" class="d-flex align-items-center"><div><img src="/images/icons/ricecooker.png" class="img-fluid mr-3"  width="25px" alt=""></div>Kitchen Appliances</a>
+                              <ul class="cd-dropdown-icons is-hidden">
+                                <li class="go-back"><a href="#0">Menu</a></li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#">Microwave Ovens</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#">Rice Cookers</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#">Electric Ovens</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#">Air Fryers</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#">  Grinders & Blenders</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#">Food Possessor</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#">Hand Mixer</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#">  Gas Cookers</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#">Toaster</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#">Free Standing Cookers</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#">Fry Pan</a>
+                                </li>
+                              </ul>
+                            </li>
+
+                            <li class="has-children">
+                              <a href="#" class="d-flex align-items-center"><div><img src="/images/icons/fan.png" class="img-fluid mr-3"  width="25px" alt=""></div>Home Appliances</a>
+                              <ul class="cd-dropdown-icons is-hidden">
+                                <li class="go-back"><a href="#0">Menu</a></li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#">Hair Care & Grooming</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#">Irons</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#">Fans</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#">Water Filters</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#">Vacuum Cleaners</a>
+                                </li>
+                              </ul>
+                            </li>
+
+                            <li class="has-children">
+                              <a href="#" class="d-flex align-items-center"><div><img src="/images/icons/audio.png" class="img-fluid mr-3"  width="25px" alt=""></div>Audio</a>
+                              <ul class="cd-dropdown-icons is-hidden">
+                                <li class="go-back"><a href="#0">Menu</a></li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#"> Hi-Fi System</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#"> Home Theatres</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#">Sound Bar</a>
+                                </li>
+                                <li>
+                                  <a class="cd-dropdown-item item-1" href="#">CD / DVD Players</a>
+                                </li>
+                              </ul>
+                            </li>
+
+                            <li class="has-children">
+                              <a href="#" class="d-flex align-items-center"><div><img src="/images/icons/medical.png" class="img-fluid mr-3"  width="25px" alt=""></div>Medical Devices</a>
+                            </li>
+
+                          </ul> <!-- .cd-dropdown-content -->
+                        </nav> <!-- .cd-dropdown -->
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="middle-content">
+                      <div class="input-group">
+                        <input type="hidden" name="search_param" value="all" id="search_param">
+                        <input type="text" class="form-control" name="x" placeholder="Find Your product">
+                        <div class="form-group search-panel">
+                          <select class="form-control " id="exampleFormControlSelect1">
+                          <option>All Categories </option>
+                            <option>Tv</option>
+                            <option>Mobile Phones</option>
+                            <option>Air Conditioners</option>
+                            <option>Computers</option>
+                            <option>Washing Machine</option>
+                            <option>Refrigerators</option>
+                            <option>Kitchen Appliances</option>
+                            <option>Home Appliances</option>
+                            <option>Audio</option>
+                            <option>Medical Devices</option>
+                            <option>All Categories </option>
+                          </select>
+                        </div>
+                        <span class="input-group-btn">
+                          <button class="btn btn-default search" type="button"><img src="/images/icons/search.svg" alt=""></button>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3">
+                    <div class="right-content justify-content-center align-items-center">
+                      <div class="right-logo">
+                        <img src="/images/samsung-logo.png" class="img-fluid"  width="125px" alt="">
+                      </div>
+                      <div class="cart-icons d-flex justify-content-center align-items-center pl-5">
+                        <a href="#"><img src="/images/icons/user.svg" class="img-fluid"  width="25px" alt=""></a>
+                        <a href="#"><img src="/images/icons/cart.svg" class="img-fluid ml-4"  width="25px" alt=""></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+
 
             <!-- Alert if email has not been confirmed -->
             <% if(me&&me.emailChangeCandidate) { %>
@@ -105,72 +375,72 @@
                 <%- body %>
 
 
-                  <!-- ============= Footer =========== -->
-                  <div id="footer">
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-lg-3 col-md-6">
-                          <img src="/images/footer_logo.png" alt="Singhagiri Logo" class="img-fluid pb-2" width="150px">
-                          <p>Singhagiri (Pvt) Ltd, <br> Colombo 10, Sri Lanka</p>
-                          <div class="social-links">
-                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                          </div>
+                <!-- ============= Footer =========== -->
+                <div id="footer">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-3 col-md-6">
+                        <img src="/images/footer_logo.png" alt="Singhagiri Logo" class="img-fluid pb-2" width="150px">
+                        <p>Singhagiri (Pvt) Ltd, <br> Colombo 10, Sri Lanka</p>
+                        <div class="social-links">
+                          <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                          <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                          <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                          <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                         </div>
-                        <div class="col-lg-4 col-md-6">
-                          <h5>Got Questions? Call us 24/7!</h5>
-                          <h5><a href="tel:(+94) 11 5 413 513 ">(+94) 11 5 413 513 </a></h5>
-                          <p>Singhagiri (Pvt) Ltd, No.515, T B Jayah Mawatha,Colombo 10, Sri Lanka</p>
-                          <a href="#" class="map-link"><div><img src="/images/pin.png" class="img-fluid mr-1" width="18px" alt=""></div>View Store</a>
-                        </div>
-                        <div class="col-lg-2 col-md-6 divide">
-                          <h6>Quick Links</h6>
-                          <ul>
-                            <li><a href="#">Laptops & Computers</a></li>
-                            <li><a href="#">Tv</a></li>
-                            <li><a href="#">Mobile Phones & Tablets</a></li>
-                            <li><a href="#">Air Conditioners</a></li>
-                            <li><a href="#">Computers</a></li>
-                            <li><a href="#">Medical Devices</a></li>
-                            <li><a href="#">Refrigerators</a></li>
-                            <li><a href="#">Kitchen Appliances</a></li>
-                            <li><a href="#">Home Appliances</a></li>
-                            <li><a href="#">Audio</a></li>
-                          </ul>
-                        </div>
-                        <div class="col-lg-3 col-md-6 divide">
-                          <h6>Customer Care</h6>
-                          <ul>
-                            <li><a href="#">My Account</a></li>
-                            <li><a href="#">Order Tracking</a></li>
-                            <li><a href="#">Wish List</a></li>
-                            <li><a href="#">Customer Service</a></li>
-                            <li><a href="#">Returns / Exchange</a></li>
-                            <li><a href="#">FAQs</a></li>
-                            <li><a href="#">Product Support</a></li>
-                          </ul>
-                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-6">
+                        <h5>Got Questions? Call us 24/7!</h5>
+                        <h5><a href="tel:(+94) 11 5 413 513 ">(+94) 11 5 413 513 </a></h5>
+                        <p>Singhagiri (Pvt) Ltd, No.515, T B Jayah Mawatha,Colombo 10, Sri Lanka</p>
+                        <a href="#" class="map-link"><div><img src="/images/pin.png" class="img-fluid mr-1" width="18px" alt=""></div>View Store</a>
+                      </div>
+                      <div class="col-lg-2 col-md-6 divide">
+                        <h6>Quick Links</h6>
+                        <ul>
+                          <li><a href="#">Laptops & Computers</a></li>
+                          <li><a href="#">Tv</a></li>
+                          <li><a href="#">Mobile Phones & Tablets</a></li>
+                          <li><a href="#">Air Conditioners</a></li>
+                          <li><a href="#">Computers</a></li>
+                          <li><a href="#">Medical Devices</a></li>
+                          <li><a href="#">Refrigerators</a></li>
+                          <li><a href="#">Kitchen Appliances</a></li>
+                          <li><a href="#">Home Appliances</a></li>
+                          <li><a href="#">Audio</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-3 col-md-6 divide">
+                        <h6>Customer Care</h6>
+                        <ul>
+                          <li><a href="#">My Account</a></li>
+                          <li><a href="#">Order Tracking</a></li>
+                          <li><a href="#">Wish List</a></li>
+                          <li><a href="#">Customer Service</a></li>
+                          <li><a href="#">Returns / Exchange</a></li>
+                          <li><a href="#">FAQs</a></li>
+                          <li><a href="#">Product Support</a></li>
+                        </ul>
                       </div>
                     </div>
                   </div>
+                </div>
 
 
 
-                    <!-- ============= CopyRight =========== -->
-                    <div id="copyRight">
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-lg-7 col-md-6" style="display: flex;align-items: center;">
-                            <p>© 2020 Singhagiri All Rights Reserved</p>
-                          </div>
-                          <div class="col-lg-5 col-md-6">
-                            <div style="display: flex;align-items: center;"><p>Allow payment base on </p><div><img src="/images/Visa_logo.png"  class="img-fluid pl-3" width="170px" alt=""></div></div>
-                          </div>
-                        </div>
+                <!-- ============= CopyRight =========== -->
+                <div id="copyRight">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-7 col-md-6" style="display: flex;align-items: center;">
+                        <p>© 2020 Singhagiri All Rights Reserved</p>
+                      </div>
+                      <div class="col-lg-5 col-md-6">
+                        <div style="display: flex;align-items: center;"><p>Allow payment base on </p><div><img src="/images/Visa_logo.png"  class="img-fluid pl-3" width="170px" alt=""></div></div>
                       </div>
                     </div>
+                  </div>
+                </div>
 
 
                 <% /*
@@ -201,6 +471,9 @@
                 <script src="/dependencies/vue-router.js"></script>
                 <script src="/dependencies/bootstrap-4/bootstrap-4.bundle.js"></script>
                 <script src="/dependencies/cloud.js"></script>
+                <script src="/dependencies/jquery.menu-aim.js"></script>
+                <script src="/dependencies/main.js"></script>
+                <script src="/dependencies/modernizr.js"></script>
                 <script src="/dependencies/moment.js"></script>
                 <script src="/dependencies/parasails.js"></script>
                 <script src="/dependencies/star-rating.min.js"></script>
@@ -217,6 +490,10 @@
                 <script src="/js/pages/account/account-overview.page.js"></script>
                 <script src="/js/pages/account/edit-password.page.js"></script>
                 <script src="/js/pages/account/edit-profile.page.js"></script>
+                <script src="/js/pages/cart/information.page.js"></script>
+                <script src="/js/pages/cart/order.page.js"></script>
+                <script src="/js/pages/cart/payment.page.js"></script>
+                <script src="/js/pages/cart/Shipping.page.js"></script>
                 <script src="/js/pages/contact.page.js"></script>
                 <script src="/js/pages/dashboard/welcome.page.js"></script>
                 <script src="/js/pages/entrance/confirmed-email.page.js"></script>

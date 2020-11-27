@@ -1,0 +1,161 @@
+<div id="payment" v-cloak>
+
+  <div class="cart-pages Payment-page">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="breadcrumbs">
+            <p>
+              <a href="/cart/my-cart">Cart</a><i class="fa fa-angle-right" aria-hidden="true"></i>
+              <a href="/cart/information" >Information</a><i class="fa fa-angle-right" aria-hidden="true"></i>
+              <a href="/cart/Shipping">Shipping</a><i class="fa fa-angle-right" aria-hidden="true"></i>
+              <a href="#"  class="active">Payment</a>
+            </p>
+          </div>
+
+          <div class="delivery-detail-wrapper">
+            <div class="table-responsive">
+              <table class="table ">
+                <tbody>
+                  <tr>
+                    <td class="text-left image">Contact</td>
+                    <td class="text-left p-name">prabth@archmage.lk</td>
+                    <td class="text-right p-total"><a href="#">Change</a></td>
+                  </tr>
+                  <tr>
+                    <td class="text-left image">Ship to</td>
+                    <td class="text-left p-name">Gangodawila, Nugegoda, 10250, Sri Lanka</td>
+                    <td class="text-right p-total"><a href="#">Change</a></td>
+                  </tr>
+                  <tr>
+                    <td class="text-left image">Delivery Fee</td>
+                    <td class="text-left p-name">Nugegoda - Rs 200.00</td>
+                    <td class="text-right p-total"><a href="#">Change</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="select-delivery-fee-wrapper pt-5">
+            <h4>Payment</h4>
+            <p class="pb-2">All transactions are secure and encrypted.</p>
+            <div class="select-delivery-fee">
+              <div class="form-check">
+                <input class="form-check-input custom-control-input" type="radio" id="opt1" name="option" checked="checked" value="1"  />
+                <label class="form-check-label custom-control-label" for="opt1">
+                  Credit card <span><img src="/images/payment-methods.png" class="img-fluid" width="230px" alt=""></span>
+                </label>
+              </div>
+            </div>
+
+            <div id="option1" class="desc card-details" >
+              <form>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="inputcardnum" placeholder="Card Number">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="NameonCard" placeholder="Name on Card">
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <input type="text" class="form-control" id="ExpirationDate" placeholder="Expiration Date (MM/YY)">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <input type="text" class="form-control" id="SecurityCode" placeholder="Security Code">
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div class="select-delivery-fee">
+              <div class="form-check">
+                <input class="form-check-input custom-control-input" type="radio" id="opt2" name="option"  value="2"  />
+                <label class="form-check-label custom-control-label" for="opt2">
+                Cash on Delivery (COD)
+                </label>
+              </div>
+            </div>
+
+            <div class="select-delivery-fee">
+              <div class="form-check">
+                <input class="form-check-input custom-control-input" type="radio" id="opt3" name="option"  value="3"  />
+                <label class="form-check-label custom-control-label" for="opt3">
+                  Cash on Pick Up at Store
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="select-delivery-fee-wrapper pt-5">
+            <h4>Billing Address</h4>
+            <p class="pb-2">Select the address that matches your card or payment method.</p>
+            <div class="select-delivery-fee">
+              <div class="form-check">
+                <input class="form-check-input custom-control-input" type="radio" id="address1" name="adress" checked="checked" value="1"  />
+                <label class="form-check-label custom-control-label" for="address1">
+                  Same as shipping address
+                </label>
+              </div>
+            </div>
+
+            <div class="select-delivery-fee">
+              <div class="form-check">
+                <input class="form-check-input custom-control-input" type="radio" id="address2" name="adress"  value="2"  />
+                <label class="form-check-label custom-control-label" for="address2">
+                Use a different billing address
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="Delivery-detail-form pt-2">
+            <div class="proceed-btns text-right pt-2">
+              <a href="#"><i aria-hidden="true" class="fa fa-angle-left"></i>Return to shopping</a>
+              <button type="submit" class="btn ">Pay Now</button>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-6 col-md-12">
+          <div class="table-responsive">
+            <table class="table cart-summery-table">
+              <tbody>
+                <tr>
+                  <td class="text-left image"><img class="img-fluid" src="/images/products-slider-1.jpg" alt="" width="85px"  alt="Generic placeholder image">  </td>
+                  <td class="text-left p-name">1m 08cm (43") T5500 Smart FHD TV </td>
+                  <td class="text-right p-total">Rs 143,990.00</td>
+                </tr>
+                <tr>
+                  <td class="text-left image"><img class="img-fluid" src="/images/products-slider-2.jpg" alt="" width="85px"  alt="Generic placeholder image">  </td>
+                  <td class="text-left p-name">1m 08cm (43") T5500 Smart FHD TV </td>
+                  <td class="text-right p-total">Rs 75,990.00</td>
+                </tr>
+                <tr class="summery-detail">
+                  <td><p>Sub Total</p>
+                    <p>Delivery Fee</p>
+                  </td>
+                  <td style="    width: 45%;"></td>
+                  <td class="text-right">
+                    <p class="total-value">Rs 143,990.00 </p>
+                    <p>Rs 200.00</p>
+                  </td>
+                </tr>
+                <tr class="total-summery">
+                  <td><h5>TOTAL</h5></td>
+                  <td></td>
+                  <td class="text-right total-value">Rs 275,990.00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+<%- /* Expose server-rendered data as window.SAILS_LOCALS :: */ exposeLocalsToBrowser() %>

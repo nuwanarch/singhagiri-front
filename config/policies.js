@@ -1,12 +1,12 @@
 /**
- * Policy Mappings
- * (sails.config.policies)
- *
- * Policies are simple functions which run **before** your actions.
- *
- * For more information on configuring policies, check out:
- * https://sailsjs.com/docs/concepts/policies
- */
+* Policy Mappings
+* (sails.config.policies)
+*
+* Policies are simple functions which run **before** your actions.
+*
+* For more information on configuring policies, check out:
+* https://sailsjs.com/docs/concepts/policies
+*/
 
 module.exports.policies = {
 
@@ -23,4 +23,8 @@ module.exports.policies = {
   'deliver-contact-form-message': true,
   'products/view-products':true,
   'products/view-singleproduct' :true,
-  };
+  'cart/view-order' : true,
+  'cart/view-information':true,
+  'cart/view-shipping':true,
+ 'cart/view-payment' :true,
+};

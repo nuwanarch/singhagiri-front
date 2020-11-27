@@ -1,0 +1,148 @@
+<div id="information" v-cloak>
+
+  <div class="cart-pages information-page">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="breadcrumbs">
+            <p>
+              <a href="/cart/my-cart">Cart</a><i class="fa fa-angle-right" aria-hidden="true"></i>
+              <a href="#" class="active">Information</a><i class="fa fa-angle-right" aria-hidden="true"></i>
+              <a href="/cart/Shipping">Shipping</a><i class="fa fa-angle-right" aria-hidden="true"></i>
+              <a href="/cart/payment">Payment</a>
+            </p>
+          </div>
+
+          <h4>Contact Information<span class="existing-acount">Already have an account?<a href="#">Login</a></span></h4>
+          <form>
+            <div class="form-group">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email">
+            </div>
+            <div class="chiller_cb ">
+              <input id="check1" type="checkbox">
+              <label for="check1">Keep me up to date on news and exclusive offers</label>
+              <span></span>
+            </div>
+          </form>
+
+          <h4 class="pt-3">Delivery Method</h4>
+          <div class="delivery-method-wrapper">
+            <div class="form-check">
+              <input class="form-check-input custom-control-input" type="radio" id="opt1" name="option" checked="checked" value="2"  />
+              <label class="form-check-label custom-control-label" for="opt1">
+                Deliver
+              </label>
+            </div>
+
+            <div class="form-check pt-2">
+              <input class="form-check-input custom-control-input"type="radio" name="option" value="3" id="opt2" />
+              <label class="form-check-label custom-control-label" for="opt2">
+                Pick Up
+              </label>
+            </div>
+          </div>
+
+          <div id="option3" class="desc"  style="display: none;">
+            <h4  class="pt-3">Pickup Location</h4>
+            <div class="delivery-method-wrapper">
+              <div class="form-check">
+                <input class="form-check-input custom-control-input"type="radio" name="location" value="4" checked="checked"  id="location" />
+                <label class="form-check-label custom-control-label" for="location">
+                  Singhagiri (Pvt) Ltd,<br>
+                  <span> Colombo 10, Sri Lanka</span>
+                </label>
+                <div class="dilivery-fee">FREE <br><span>Colombo 10, Sri Lanka</span></div>
+              </div>
+            </div>
+            <div class="proceed-btns text-right pt-5">
+              <a href="#"><i aria-hidden="true" class="fa fa-angle-left"></i>Return to cart</a>
+              <button type="submit" class="btn ">Continue to Payment </button>
+            </div>
+          </div>
+
+          <div id="option2" class="desc">
+            <h4  class="pt-3">Delivery Address</h4>
+            <div class="Delivery-detail-form pt-2">
+              <form>
+                <div class="form-row form-group">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="First name">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="inputAddress" placeholder="address">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="City">
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-lg-6 col-md-12">
+                    <input type="text" class="form-control" id="inputCity" placeholder="Country">
+                  </div>
+                  <div class="form-group col-lg-6 col-md-12">
+                    <input type="text" class="form-control" id="inputZip" placeholder="Postal Code">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="Phone">
+                </div>
+                <div class="form-group">
+                  <div class="chiller_cb ">
+                    <input id="check2" type="checkbox">
+                    <label for="check2">Save this information for next time</label>
+                    <span></span>
+                  </div>
+                </div>
+                <div class="proceed-btns text-right pt-2">
+                  <a href="#"><i aria-hidden="true" class="fa fa-angle-left"></i>Return to cart</a>
+                  <button type="submit" class="btn ">Continue to CheckOut</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-6 col-md-12">
+          <div class="table-responsive">
+            <table class="table cart-summery-table">
+              <tbody>
+                <tr>
+                  <td class="text-left image"><img class="img-fluid" src="/images/products-slider-1.jpg" alt="" width="85px"  alt="Generic placeholder image">  </td>
+                  <td class="text-left p-name">1m 08cm (43") T5500 Smart FHD TV </td>
+                  <td class="text-right p-total">Rs 143,990.00</td>
+                </tr>
+                <tr>
+                  <td class="text-left image"><img class="img-fluid" src="/images/products-slider-2.jpg" alt="" width="85px"  alt="Generic placeholder image">  </td>
+                  <td class="text-left p-name">1m 08cm (43") T5500 Smart FHD TV </td>
+                  <td class="text-right p-total">Rs 75,990.00</td>
+                </tr>
+                <tr class="summery-detail">
+                  <td><p>Sub Total</p>
+                    <p>Delivery Fee</p>
+                  </td>
+                  <td style="    width: 45%;"></td>
+                  <td class="text-right">
+                    <p class="total-value">Rs 143,990.00 </p>
+                    <p>alculated at next step</p>
+                  </td>
+                </tr>
+                <tr class="total-summery">
+                  <td><h5>TOTAL</h5></td>
+                  <td></td>
+                  <td class="text-right total-value">Rs 275,990.00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+<%- /* Expose server-rendered data as window.SAILS_LOCALS :: */ exposeLocalsToBrowser() %>
